@@ -2,7 +2,12 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    minHeight: {
+      'screen': ['100vh', '100dvh'],
+    },
+    extend: {
+
+    },
   },
   plugins: [],
 }
